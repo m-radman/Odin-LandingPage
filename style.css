@@ -5,8 +5,23 @@ body {
 
 .header {
     background-color: #1f2937;
+    color: white;
     display: flex;
     flex-direction: column;
+}
+
+.heading {
+    display: flex;
+}
+
+
+ul {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+li {
+    padding: 0px 15px;
 }
 
 .content {
@@ -20,4 +35,9 @@ body {
 
 .call {
     background-color: #3882f6;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
 }
