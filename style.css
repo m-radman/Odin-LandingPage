@@ -34,6 +34,7 @@ body {
 }
 
 #bioshock {
+    height: auto;
     width: 500px;
     border: none;
 }
@@ -65,6 +66,7 @@ h2 {
 }
 
 img {
+    height: auto;
     width: 200px;
     border-radius: 10px;
     border: 4px #3882f6 solid;
@@ -75,19 +77,53 @@ img {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+}
+
+#quote {
+    align-self: center;
+}
+
+.author {
+    display: flex;
+    align-self: center;
+    width: 830px;
+    justify-content: flex-end;
 }
 
 #author {
-    align-self: flex-end;
     font-size: smaller;
+}
+
+.blue {
+    padding: 100px 200px;
 }
 
 .call {
     background-color: #3882f6;
+    border-radius: 10px;
+    padding: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+#text1 {
+    font-weight: bold;
+    font-size: larger;
+}
+
+#button2 {
+    background-color: #3882f6;
+    border: 2px white solid;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
 }
 
 .footer {
     background-color: #1f2937;
     color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
 }
