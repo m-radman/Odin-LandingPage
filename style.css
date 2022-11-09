@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
+    font-family: "Montserrat", sans-serif;
 }
 
 .header {
@@ -8,16 +11,37 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
+    padding: 15px;
+    justify-content: center;
 }
 
 .heading {
     display: flex;
+    align-self: center;
+    gap: 436px;
 }
 
+#logo {
+    border: none;
+    flex: auto;
+}
 
-ul {
+.headorg {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 50px auto;
+}
+
+#bioshock {
+    width: 500px;
+    border: none;
+}
+
+#link-list {
     display: inline-flex;
     list-style-type: none;
+    flex: auto;
 }
 
 li {
@@ -29,8 +53,34 @@ li {
     flex-direction: column;
 }
 
+h2 {
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+img {
+    width: 200px;
+    border-radius: 10px;
+    border: 4px #3882f6 solid;
+}
+
 .quote {
     background-color: #e5e7eb;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#author {
+    align-self: flex-end;
+    font-size: smaller;
 }
 
 .call {
