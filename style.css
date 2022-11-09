@@ -18,12 +18,19 @@ body {
 .heading {
     display: flex;
     align-self: center;
-    gap: 436px;
+    min-width: 940px;
+    justify-content: space-between;
+    flex: auto;
 }
 
 #logo {
     border: none;
-    flex: auto;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: white;
 }
 
 .headorg {
@@ -35,7 +42,19 @@ body {
 
 #bioshock {
     height: auto;
-    width: 500px;
+    width: 450px;
+    border: none;
+}
+
+.desc {
+    width: 450px;
+}
+
+#button1 {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
     border: none;
 }
 
@@ -56,6 +75,8 @@ li {
 
 h2 {
     text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
 }
 
 .info {
@@ -63,6 +84,7 @@ h2 {
     justify-content: center;
     gap: 20px;
     padding: 20px;
+    margin-bottom: 60px;
 }
 
 img {
@@ -70,17 +92,25 @@ img {
     width: 200px;
     border-radius: 10px;
     border: 4px #3882f6 solid;
+    margin-bottom: 10px;
+}
+
+.enemies {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .quote {
     background-color: #e5e7eb;
-    padding: 20px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
 }
 
 #quote {
     align-self: center;
+    font-size: larger;
 }
 
 .author {
@@ -105,6 +135,7 @@ img {
     color: white;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 #text1 {
@@ -117,7 +148,9 @@ img {
     border: 2px white solid;
     border-radius: 5px;
     color: white;
-    padding: 10px;
+    padding: 10px 20px;
+    height: 50px;
+    width: 80px;
 }
 
 .footer {
